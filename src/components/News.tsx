@@ -4,16 +4,16 @@ import { Calendar, ArrowRight, Tag } from 'lucide-react';
 const News: React.FC = () => {
   const news = [
     {
-      title: "IMI Berhasil Menyelamatkan 50 TKI dari Eksploitasi di Malaysia",
-      excerpt: "Operasi penyelamatan besar-besaran berhasil membebaskan puluhan TKI yang mengalami eksploitasi dan pelanggaran hak kerja.",
+      title: "IMI Berhasil Menyelamatkan 50 PMI dari Eksploitasi di Malaysia",
+      excerpt: "Operasi penyelamatan besar-besaran berhasil membebaskan puluhan PMI yang mengalami eksploitasi dan pelanggaran hak kerja.",
       image: "https://images.pexels.com/photos/3184306/pexels-photo-3184306.jpeg?auto=compress&cs=tinysrgb&w=600",
       date: "15 Desember 2024",
       category: "Advokasi",
       featured: true
     },
     {
-      title: "Program Kewirausahaan TKI Meraih Penghargaan Nasional",
-      excerpt: "Program pemberdayaan ekonomi untuk mantan TKI mendapat apresiasi dari pemerintah pusat.",
+      title: "Program Kewirausahaan PMI Meraih Penghargaan Nasional",
+      excerpt: "Program pemberdayaan ekonomi untuk mantan PMI mendapat apresiasi dari pemerintah pusat.",
       image: "https://images.pexels.com/photos/3184338/pexels-photo-3184338.jpeg?auto=compress&cs=tinysrgb&w=600",
       date: "12 Desember 2024",
       category: "Program"
@@ -27,21 +27,21 @@ const News: React.FC = () => {
     },
     {
       title: "Kerjasama dengan Embassy Indonesia di Singapura",
-      excerpt: "Penandatanganan MOU untuk memperkuat jaringan perlindungan TKI di kawasan Asia Tenggara.",
+      excerpt: "Penandatanganan MOU untuk memperkuat jaringan perlindungan PMI di kawasan Asia Tenggara.",
       image: "https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&cs=tinysrgb&w=600",
       date: "8 Desember 2024",
       category: "Kerjasama"
     },
     {
       title: "Layanan Konseling Online 24/7 Resmi Diluncurkan",
-      excerpt: "Platform digital baru memungkinkan TKI mengakses bantuan psikologis kapan saja dari mana saja.",
+      excerpt: "Platform digital baru memungkinkan PMI mengakses bantuan psikologis kapan saja dari mana saja.",
       image: "https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=600",
       date: "5 Desember 2024",
       category: "Layanan"
     },
     {
-      title: "Workshop Literasi Digital untuk Keluarga TKI",
-      excerpt: "Program edukasi teknologi untuk membantu komunikasi yang lebih baik antara TKI dan keluarga.",
+      title: "Workshop Literasi Digital untuk Keluarga PMI",
+      excerpt: "Program edukasi teknologi untuk membantu komunikasi yang lebih baik antara PMI dan keluarga.",
       image: "https://images.pexels.com/photos/3184644/pexels-photo-3184644.jpeg?auto=compress&cs=tinysrgb&w=600",
       date: "3 Desember 2024",
       category: "Edukasi"
@@ -145,6 +145,28 @@ const News: React.FC = () => {
           <button className="bg-gradient-to-r from-blue-600 to-orange-500 text-white px-8 py-4 rounded-lg font-semibold hover:shadow-lg transition-all duration-300 transform hover:-translate-y-1">
             Lihat Semua Berita
           </button>
+        </div>
+
+        {/* Statistics Section */}
+        <div className="mt-16">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+            <div className="bg-white rounded-lg shadow-md p-6 text-center">
+              <div className="text-2xl font-bold text-gray-800">25,000+</div>
+              <div className="text-sm text-gray-600">PMI Terlayani</div>
+            </div>
+            <div className="bg-white rounded-lg shadow-md p-6 text-center">
+              <div className="text-2xl font-bold text-gray-800">10,000+</div>
+              <div className="text-sm text-gray-600">Keluarga Terhubung</div>
+            </div>
+            <div className="bg-white rounded-lg shadow-md p-6 text-center">
+              <div className="text-2xl font-bold text-gray-800">1,000+</div>
+              <div className="text-sm text-gray-600">Konsultasi Dilakukan</div>
+            </div>
+            <div className="bg-white rounded-lg shadow-md p-6 text-center">
+              <div className="text-2xl font-bold text-gray-800">500+</div>
+              <div className="text-sm text-gray-600">Pelatihan Diberikan</div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
